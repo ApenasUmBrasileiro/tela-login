@@ -32,7 +32,7 @@ botaoLogar.addEventListener('click', () => {
       }
     }
     if(campoUsuario == usuarioADM && campoSenha == senhaADM){
-        window.location.href = '/user.html'
+        window.location.href = '/tela-login/user.html'
     }
    }
   )
