@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: chocolate;    
+}
+
+.login {
+    height: 72px;
+    width: 163px;
+    border-radius: 30px;
+    font-size: large;
+    background-color: seashell;
+    color :darkslategrey;
+}

@@ -1,0 +1,51 @@
+html {
+    color: black;
+    font-family: cursive;
+}
+body {
+    background-color: #23beb5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.texto-Login{
+    font-size: 50px;
+    margin: 0;
+
+}
+.quadro{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 3.5px dashed darkolivegreen;
+    padding: 50px 45px;
+}
+
+.input-login {
+    padding: 6px;
+    border-radius: 4px;
+    border: solid 1px black;
+    transition: all 0.5s ease;
+}
+
+.actions{
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botao-login{
+    height: 50px;
+    width: 91px;
+    background: #f5ecc8;
+    border: 1px dotted #6b7f12d2 ;
+    border-radius: 8px;
+}
+
+.botao-login:hover{
+    background:#c9a92b;
+}
